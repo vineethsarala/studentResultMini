@@ -1,0 +1,55 @@
+/* Home.css */
+
+.main {
+    display: flex;
+    padding: 20px;
+    width: 70%;
+    justify-content: space-between;
+    margin: 5% 15% 0% 15%;
+}
+
+.maindiv {
+    position: relative; /* Position relative for absolute positioning of button */
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 200px;
+    border: solid 1px grey;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px; /* Space from the top to place content in the middle */
+}
+
+.plus {
+    position: absolute; /* Position button at the top-right corner */
+    top: 10px;
+    right: 10px;
+}
+
+.plus button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.home p {
+    font-size: 18px;
+    margin: 0;
+}
+
